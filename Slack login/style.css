@@ -1,0 +1,212 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE6C9;
+}
+.slack_container{
+    width: 75vw;
+    height: 95vh; 
+    border-radius: 34px;
+   border: 10px solid #FFF;
+   background: #FFF;
+   margin-top: 10px;
+   display: flex;
+   
+  }
+  .right{
+  width:65%;
+  height:100%;
+  background-image: url("images/illustration\ \(1\).png");
+  background-size: calc( 100% - 1px);
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+  }
+  .left{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
+  }
+  .left .container{
+    position: relative;
+    top: 50px;
+    
+    
+    width: 90%;
+    height: 90%; 
+  }
+  h3{
+    color: #525252;
+
+font-family: Nunito Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 1px;
+  }
+  #span1{
+    font-family: Nunito Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 1px;
+  }
+  .container img{
+  
+    width: 50px;
+    height: 50px;
+    
+  }
+ #googleButton{
+    margin-top: 15px;
+    width: 85%;
+    height: 30px;
+    background-color:white;
+    color:black;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+     border: 1px solid #E8E8E8;
+     margin-bottom: 30px;
+     
+ }
+ #slacklogo{
+    height: 30px;
+    width: 35px;
+ }
+  #googleButton:hover{
+    background-color: #E8E8E8;
+    color: #000;
+  }
+  #googleButton img{
+    position: relative;
+   bottom: 6px;
+    width: 20px;
+    height: 20px;
+  }
+ #googleButton span{
+color: var(--Gray-3, #828282);
+font-family: Nunito Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: relative;
+bottom: 10px;
+ }
+ #alternative{
+    width: 256px;
+    height: 16px;
+    color:whuted transparent;
+    font-size: 16px;
+ }
+ .loginCredentials #first{
+    margin-top: 20px;
+ }
+ .loginCredentials #second{
+    margin-top: -20px;
+
+ }
+ .loginCredentials input[type="email"]{
+    
+    width: 90%;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid #E8E8E8;
+    margin-bottom: 30px;
+    outline: 1px solid #E8E8E8;
+    padding: 5px ;
+ }
+ .loginCredentials input[type="password"]{
+    width: 90%;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid #E8E8E8;
+    margin-bottom: 30px;
+    padding: 5px;
+    outline: 1px solid  #E8E8E8;
+ }
+ .loginCredentials p{
+    margin-top: px;
+ }
+ .middle{
+    margin-top: -15px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #A1A1A1;
+    font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+    
+ }
+ 
+ .loginCredentials button{
+    padding: 1px;
+    width: 90%;
+    height: 30px;
+    border-radius:6px;
+    border-radius: 6px;
+   background: #7F265B;
+   outline: none;
+   border: none;
+   margin-top: 17px;
+   margin-bottom: 8px;
+   color: white;
+
+ }
+ .loginCredentials button:hover{
+    transform: scale(1.05);
+    
+
+ }
+ .check{
+    font-size: 12px;
+    padding: 1px;
+ }
+ .check input[type="check"]:checked{
+    width: 14px;
+    height: 15px;
+    background-color: #f7129b;
+    font-size: 12px;
+}
+
+ .loginCredentials span a{
+    color: #7F265B;
+    position: relative;
+    left: -30px;
+
+font-family: Nunito Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-decoration: none;
+
+ }
+ #newaccount{
+    color: #7F265B;
+
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+cursor: pointer;
+ }
+
+ 
